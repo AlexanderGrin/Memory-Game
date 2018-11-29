@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html id="main">
+	<head>
+		<link rel="stylesheet" href="style/gamepage.css">
+		<script>
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="game">
+			<div id="div">
+				<input type="button" data-tid="Menu-newGame" value="Start over" onClick='location.href="GamePage.html"' >
+				<label id="score">Score:</label>
+				<label id="points" data-tid="Menu-scores">0</label>
+			</div>
+			<div id='deck' data-tid="Deck">
+				<img id='0' onclick='CardClick(event)' data-tid="Card">
+				<img id='1' onclick='CardClick(event)' data-tid="Card">
+				<img id='2' onclick='CardClick(event)' data-tid="Card">
+				<img id='3' onclick='CardClick(event)' data-tid="Card">
+				<img id='4' onclick='CardClick(event)' data-tid="Card">
+				<img id='5' onclick='CardClick(event)' data-tid="Card">
+				<img id='6' onclick='CardClick(event)' data-tid="Card">
+				<img id='7' onclick='CardClick(event)' data-tid="Card"> 
+				<img id='8' onclick='CardClick(event)' data-tid="Card">
+				<img id='9' onclick='CardClick(event)' data-tid="Card">
+				<img id='10' onclick='CardClick(event)' data-tid="Card">
+				<img id='11' onclick='CardClick(event)' data-tid="Card">
+				<img id='12' onclick='CardClick(event)' data-tid="Card">
+				<img id='13' onclick='CardClick(event)' data-tid="Card">
+				<img id='14' onclick='CardClick(event)' data-tid="Card">
+				<img id='15' onclick='CardClick(event)' data-tid="Card">
+				<img id='16' onclick='CardClick(event)' data-tid="Card">
+				<img id='17' onclick='CardClick(event)' data-tid="Card">
+			</div>
+		</div>
+		<script type="text/javascript" src="js/game.js"></script> 
+	</body>
+</html>

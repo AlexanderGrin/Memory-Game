@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style/endpage.css">
+		<script>
+			window.onload=function(){
+				var tmp = new Array(); 
+				var tmp2 = new Array(); 
+				var get = new Array(); 
+				var url = window.location.search;
+				if(url != '') {
+					tmp = (url.substr(1)).split('&');
+					for(var i=0; i < tmp.length; i++) { 
+						tmp2 = tmp[i].split('='); 
+						get[tmp2[0]] = tmp2[1];
+					}	
+				}
+				document.getElementById("score").innerHTML="Your final score: "+get['score'];
+			};
+		</script>
+	</head>
+	<body>
+		<div id="main">
+				<img  id="img" src="assets/EndGame.png">
+				<div  id="result">
+					<label>Congratulate!</label>
+					<div id="score" >Your final score:</div>
+				</div>
+				<input type="button" value="Anew" data-tid="EndGame-retryGame" onClick='location.href="GamePage.html"' >
+		</div> 
+	</body>
+</html>

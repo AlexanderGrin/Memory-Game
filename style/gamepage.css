@@ -1,0 +1,74 @@
+body{
+	background:#1C7430;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+#game{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	margin-right: -50%; 
+	transform: translate(-50%, -50%); 
+	background: #1C7430 100%;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#deck{
+	left: 0px;
+	top:20px;
+	position:relative;
+	width:710px;
+	height:500px;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#div{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#score{
+	position:relative;
+	left:534px;
+	top:0px;
+	width:44px;
+	height:19px;
+	opacity: 0.8;
+	font-family: OpenSans-Bold,sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+#points{
+	position:relative;
+	left:544px;
+	top:0px;
+	width:10px;
+	height:18px;
+	opacity: 0.8;
+	font-family: Krungthep,sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+input{
+	width:102px;
+	height:19px;
+	opacity: 0.8;
+	font-family: OpenSans-Semibold,sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: -0.25px;
+	background:#1C7430;
+	border:0;
+}
+img{
+	border-radius:6px;
+}
