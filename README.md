@@ -1,2 +1,2 @@
 #      		Memory-Game
-Application is developed using HTML, CSS and Js.
+Application is developed using HTML, CSS and JS.
